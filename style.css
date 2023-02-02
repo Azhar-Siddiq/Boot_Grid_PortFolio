@@ -1,0 +1,351 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hoLDer{
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    border-bottom: 5px solid #fff;
+    box-shadow: 0px 15px 10px -13px #161616;
+}
+.hOv{
+  transition: all 0.5s ease;  
+}
+.hOv:hover{
+    transform: scale(1.2);  
+  }
+.coLor{
+    background: linear-gradient(#000, #252734 50%, #000);
+}
+.item_1{
+    height: 500px;
+    position: relative;
+}
+.item_1 img{
+    width: 85%;
+    height: 95%;
+    display: block;
+    margin-left: 110px;
+    margin-top: 25px;
+    filter: contrast(1.5);
+}
+.color-box{
+    width: 500px;
+    height: 305px;
+    top: 170px;
+    z-index: -1;
+    border-radius: 0 20px 0 0;
+    position: absolute;
+    background: linear-gradient(#000, #252734 50%, #000);
+}
+.item_2{
+    height: 500px;
+    position: relative;
+}
+.item_2::after{
+    content: '';
+    width: 10px;
+    height: 60%;
+    top: 70px;
+    left: 100px;
+    position: absolute;
+    background: linear-gradient(to top, #000, #eded, #000);
+}
+.item_2 p{
+    font-size: 30px;
+    padding-left: 100px;
+}
+.item_2 h1{
+    padding-left: 120px;
+    font-size: 50px;
+}
+.item_2 .para-1{
+    font-size: 30px;
+    padding-left: 120px;
+}
+.icon-container{
+    margin-top: 95px;
+    padding-left: 120px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.icon-container a .fa-brands{
+    font-size: 30px;
+    color: #252734;
+}
+.obj-sec{
+    height: 350px;
+    padding-top: 30px;
+}
+.obj-sec h1{
+    font-size: 30px;
+    text-decoration: underline;
+    text-shadow: 5px 5px 5px #808080;
+
+}
+.obj-sec p{
+    font-size: 20px;
+    padding: 10px 0px 0px 160px;
+    text-shadow: 5px 5px 5px #808080;
+    line-height: 40px;
+    text-align: justify;
+}
+.heaDing{
+    text-align: center;
+}
+.box_1{
+    height: 500px;
+    padding: 20px;
+    background: linear-gradient(#000, #252734 50%, #000);
+    box-shadow: 0 0 10px #000;
+    position: relative;
+}
+.box_1::after{
+    content: '';
+    width: 10px;
+    height: 100%;
+    top: 0px;
+    left: -15px;
+    position: absolute;
+    background: linear-gradient(to top, #000, #eded, #000);
+}
+.box_1 h1{
+    font-size: 32px;
+    text-align: center;
+    color: #808080;
+    padding-bottom: 20px;
+}
+.box_1 p{
+    color: #fff;
+    line-height: 30px;
+}
+.box_1 span{
+    font-weight: bold;
+}
+.box_2{
+    height: 500px;
+    position: relative;
+    padding: 20px;
+    background: linear-gradient(#000, #252734 50%, #000);
+    box-shadow: 0 0 10px #000;
+}
+.box_2::after{
+    content: '';
+    width: 10px;
+    height: 100%;
+    top: 0px;
+    left: -15px;
+    position: absolute;
+    background: linear-gradient(to top, #000, #eded, #000);
+}
+.box_2 h1{
+    font-size: 32px;
+    text-align: center;
+    color: #808080;
+    padding-bottom: 20px;
+}
+.box_2 p{
+    color: #fff;
+    line-height: 30px;
+}
+.box_2 span{
+    font-weight: bold;
+}
+.project-div{
+    display: flex;
+    flex-wrap: wrap;
+}
+.img-container-1{
+    height: 250px;
+    width: 100%;
+    border-top-left-radius: 10px 10px;
+    border-top-right-radius: 10px 10px;
+    box-shadow: 0 0 10px #000;
+}
+.img-container-1 img{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 10px 10px;
+    border-top-right-radius: 10px 10px;
+}
+.text-container-1{
+    height: 100px;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: linear-gradient(#000, #252734 50%, #000);
+    box-shadow: 0 0 10px #000;
+}
+.text-container-1 p{
+    color: #fff;
+    font-size: 20px;
+    line-height: 30px;
+}
+.contact-sec{
+    height: 700px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    background: linear-gradient(#000, #252734 50%, #000);
+    box-shadow: 2px 2px 5px #141414;
+}
+.contact-sec p{
+    text-align: center;
+    color: #fff;
+    padding-bottom: 40px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.contact-sec fieldset{
+    border: none;
+}
+.contact-sec fieldset label{
+    font-weight: bold;
+    font-size: 18px;
+    color: #d8d9dd;
+}
+.contact-sec fieldset input{
+    padding: 8px;
+    margin: 5px 0px 0px 10px;
+    border-radius: 8px;
+    box-shadow: inset 0px 0px 8px #00000080;
+    width: 95%;
+    outline: none;
+}
+.contact-sec fieldset textarea{
+    border-radius: 8px;
+    outline: none;
+    padding: 8px;
+    width: 95%;
+    margin: 10px 0px 0px 10px;
+    box-shadow: inset 0px 0px 8px #00000080;
+}
+.contact-sec button{
+    width: 180px;
+    height: 35px;
+    margin-left: 62%;
+    border-radius: 8px;
+    color: #fff;
+    border: 2px solid #fff;
+    cursor: pointer;
+    background: linear-gradient(to right, #000, #252734 50%, #000);
+}
+.foot-sec{
+    height: 50px;
+    display: flex;
+    background-color: #141414;
+}
+.teXt{
+    width: 90%;
+    padding: 10px;
+    color: #eee;
+}
+.imAge{
+    width: 10%;
+}
+.imAge img{
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin-left: auto;
+}
+.arRow{
+    width: 50px;
+    height: 50px;
+    display: block;
+    display: none;
+    margin-left: auto;
+}
+@media only screen and (max-width:768px){
+    .item_1{
+        margin-top: -40px;
+        height: 400px;
+    }
+    .item_1 img{
+        height: 90%;
+        margin-left: -25px;
+        margin-top: 40px;
+    }
+    .color-box{
+        width: 400px;
+        height: 185px;
+        top: 178px;
+    }
+    .item_2{
+        padding: 20px;
+        height: 400px;
+    }
+    .item_2::after{
+        left:20px;
+    }
+    .item_2 p{
+        padding-left: 30px;
+    }
+    .item_2 h1{
+        padding-left: 50px;
+    }
+    .item_2 .para-1{
+        padding-left: 50px;
+    }
+    .icon-container{
+        margin: 30px auto 0px auto;
+    }
+    .icon-container a .fa-brands{
+        border-bottom: 2px solid #000;
+    }
+    .obj-sec h1{
+        text-align: center;
+        padding-bottom: 20px;
+        text-decoration: underline;
+    }
+    .obj-sec p{
+        line-height: 30px;
+        text-align: justify;
+        padding: 0;
+    }
+    .obj-sec{
+        height: 550px;
+    }
+    .box_2{
+        margin-top: 10px;
+    }
+    .box_1::after{
+        display: none;
+    }
+    .box_2::after{
+        display: none;
+    }
+    .box_1 span{
+        font-weight: normal;
+    }
+    .box_2 span{
+        font-weight: normal;
+    }
+    .box-1{
+        display: none;
+    }
+    .contact-sec{
+        width: 100%;
+        margin: 0;
+    }
+    .contact-sec button{
+        margin-left: 0px;
+    }
+    .foot-sec{
+        display: block;
+    }
+    .teXt{
+        width: 100%;
+        text-align: center;
+    }
+    .imAge{
+        display: none;
+    }
+}
